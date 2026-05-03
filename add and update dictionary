@@ -1,0 +1,10 @@
+data = {}
+
+data["name"] = input("Enter name: ")
+data["age"] = int(input("Enter age: "))
+
+print("Before update:", data)
+
+data["age"] = data["age"] + 1
+
+print("After update:", data)
