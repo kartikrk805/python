@@ -1,0 +1,12 @@
+marks = {}
+
+for i in range(3):
+    subject = input("Enter subject: ")
+    score = int(input("Enter marks: "))
+    marks[subject] = score
+
+total = sum(marks.values())
+avg = total / len(marks)
+
+print("Marks:", marks)
+print("Average:", avg)
