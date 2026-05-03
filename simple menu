@@ -1,0 +1,12 @@
+menu = {
+    1: "Pizza",
+    2: "Burger",
+    3: "Pasta"
+}
+
+for key, value in menu.items():
+    print(key, value)
+
+choice = int(input("Choose item: "))
+
+print("You selected:", menu.get(choice, "Invalid choice"))
