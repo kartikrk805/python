@@ -1,0 +1,11 @@
+marks = [78, 45, 90, 32,88,67,29]
+passed = list(filter(lambda x: x >= 40, marks))
+gracemarks = list(filter(lambda x: x+5, marks))
+
+total=reduce(lambda x,y: x+y, marks)
+average = total / len(marks)
+
+print("Student Marks:", marks)
+print("passed Students Marks:", passed)
+print("grace Marks:", gracemarks)
+print("Class Average:", average)
