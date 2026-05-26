@@ -1,0 +1,5 @@
+file = open("sample.txt", "w")
+file.write("Hello World!\n")
+file.write("File created successfully.")
+file.close()
+print("Content written to file successfully.")
